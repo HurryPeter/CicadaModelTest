@@ -65,7 +65,7 @@ public class Test_PlayerAction : MonoBehaviour
                 if (sonarTimer>=freq+3)
                 {
                     sonarTimer=0;
-                    Instantiate(prefab, Orientation.position - new Vector3(0, test_SonarBehavior.SonarScale + 1, 0), Quaternion.identity);
+                    Instantiate(prefab, Orientation.position - new Vector3(0, test_SonarBehavior.SonarScale + 1, 0), Quaternion.AngleAxis(-90,Vector3.right));
                 }
                 Debug.Log("case 1 :" + SonarModeIndex);
 
@@ -74,7 +74,7 @@ public class Test_PlayerAction : MonoBehaviour
                 if (sonarTimer>=freq+1.5f)
                 {
                     sonarTimer=0;
-                    Instantiate(prefab, Orientation.position - new Vector3(0, test_SonarBehavior.SonarScale + 1, 0), Quaternion.identity);
+                    Instantiate(prefab, Orientation.position - new Vector3(0, test_SonarBehavior.SonarScale + 1, 0), Quaternion.AngleAxis(-90,Vector3.right));
                 }
                 Debug.Log("case 2 :" + SonarModeIndex);
 
@@ -83,7 +83,7 @@ public class Test_PlayerAction : MonoBehaviour
                 if (sonarTimer>=freq+0.5f)
                 {
                     sonarTimer=0;
-                    Instantiate(prefab, Orientation.position - new Vector3(0, test_SonarBehavior.SonarScale + 1, 0), Quaternion.identity);
+                    Instantiate(prefab, Orientation.position - new Vector3(0, test_SonarBehavior.SonarScale + 1, 0), Quaternion.AngleAxis(-90,Vector3.right));
                 }
                 Debug.Log("case 3 :" + SonarModeIndex);
 

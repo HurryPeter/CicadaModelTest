@@ -26,14 +26,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4944588727842237092}
-  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
   m_LocalPosition: {x: 0, y: 0, z: -6.58}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
 --- !u!33 &8681460661962719163
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -41,7 +41,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4944588727842237092}
-  m_Mesh: {fileID: -6374078243178576715, guid: c962e69037fa42b4589d4c22d83bf9e4, type: 3}
+  m_Mesh: {fileID: 3613567641014311022, guid: 69ed182b79bcece40901434615b94d52, type: 3}
 --- !u!23 &6890024951198272369
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -96,5 +96,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c884fcdcfe3444248b8a95fe53a93c48, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SonarScale: 15
-  Speed: 2
+  SonarScale: 30
+  Speed: 5
