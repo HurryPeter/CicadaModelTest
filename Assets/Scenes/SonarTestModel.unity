@@ -1519,7 +1519,7 @@ Transform:
   m_GameObject: {fileID: 768133394}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -5.79, z: 0}
+  m_LocalPosition: {x: 0, y: -60, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2406,7 +2406,8 @@ TextMesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1711917016}
-  m_Text: "\u79FB\u52D5:WASD\n\u8072\u6CE2:left mouse buttom\nlight switch : L"
+  m_Text: "\u79FB\u52D5:WASD\n\u8072\u6CE2:\u6ED1\u9F20\u5DE6\u9375\nlight switch
+    : L"
   m_OffsetZ: 0
   m_CharacterSize: 1
   m_LineSpacing: 1

@@ -7,8 +7,10 @@ public class Test_SonarBehavior : MonoBehaviour
     public float SonarScale;
     public float Speed;
     float Distance;
+    GameObject InstancePoint;
     void Start()
     {
+        InstancePoint=GameObject.Find("Player/InstancePoint");
         GameObject.Find("Text").GetComponent<MeshRenderer>().enabled=false;
         transform.localScale *= SonarScale;
     }
@@ -27,7 +29,9 @@ public class Test_SonarBehavior : MonoBehaviour
 
     void Move()
     {
-        transform.position += Vector3.up * Speed * Time.deltaTime;
+        Vector3 playerPosition=InstancePoint.transform.position;
+        transform.position = new Vector3(playerPosition.x,playerPosition.y+Distance,playerPosition.z);
+        transform.position += new Vector3(0,Speed*Time.deltaTime,0);
         Distance += Speed*Time.deltaTime;
         if (Distance >= SonarScale/2)
         {
@@ -35,4 +39,5 @@ public class Test_SonarBehavior : MonoBehaviour
             Distance=0;
         }
     }
+
 }

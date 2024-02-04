@@ -65,7 +65,7 @@ public class Test_PlayerAction : MonoBehaviour
                 if (sonarTimer>=freq+3)
                 {
                     sonarTimer=0;
-                    Instantiate(prefab, Orientation.position - new Vector3(0, test_SonarBehavior.SonarScale + 1, 0), Quaternion.AngleAxis(-90,Vector3.right));
+                    Instantiate(prefab, Orientation.position - new Vector3(0, test_SonarBehavior.SonarScale + 1, 0) , Quaternion.AngleAxis(-90,Vector3.right));
                 }
                 Debug.Log("case 1 :" + SonarModeIndex);
 
