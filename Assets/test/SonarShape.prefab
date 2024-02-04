@@ -96,5 +96,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c884fcdcfe3444248b8a95fe53a93c48, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SonarScale: 30
-  Speed: 5
+  SonarScale: 60
+  Speed: 10
